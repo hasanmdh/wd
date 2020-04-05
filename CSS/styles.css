@@ -5,14 +5,13 @@ hr{
 border-style:none;
 border-top-style:dotted;
 border-color:red;
-border-height:3px;
 border-width:5px;
 width:40px;
 }
 h1{
-  background-color:greenyellow;
+  color:greenyellow;
 
 }
 h3{
-  background-color:lightsteelblue;
+  color:lightsteelblue;
 }
