@@ -3,55 +3,118 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
   <title>✍Hasan's Personal Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <meta charset="utf-8">
   <link rel="stylesheet" href="CSS/styles.css">
-  <link rel="icon" href="Image/circle-cropped.png">
+  <link rel="icon" href="Image/h1.png">
 </head>
 
 <body>
-  <table cellspacing="30">
-    <tr>
-      <td><img src="Image/hasan.png" alt="hasan profile picture"></td>
-      <td>
-        <h1><p style="color:green">Md Hasan</p></h1>
-        <p>Learner of Web Development.<a href="https://codepen.io/">Practice</a></p>
-        <p>I 💚 Building Website.</p>
-        <p style="color:red">Develop a new career!!</p>
-      </td>
-    </tr>
-  </table>
+  <div class="top">
+    <table cellspacing="30">
+      <tr>
+        <td><img src="Image/hasan.png" alt="hasan profile picture"></td>
+        <td>
+          <h1>
+            <p style="color:green;font-size:10rem;font-weight: lighter;font-family:parisienne;">Md Hasan</p>
+          </h1>
+          <p>Learner of Web Development.<a href="https://codepen.io/">Practice</a></p>
+          <p>I 💚 Building Website.</p>
+          <p style="color:red">Develop a new career!!</p>
+        </td>
+      </tr>
+    </table>
+  </div>
   <hr>
-  <h3><p style="color:green">Books & Learning Tools:</p></h3>
-  <ul>
-    <li>The complete web Development Bootcamp</li>
-    <li>Windows Development</li>
-    <li><a href="https://www.udemy.com/home/my-courses/learning/">Udemy</a></li>
-    <li><a href="https://atom.io/docs">Atom</a></li>
-    <li><a href="https://devdocs.io/">Devdocs</a></li>
-    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN</a></li>
-    <li><a href="https://www.w3schools.com/">W3School</a></li>
-    <li><a href="https://stackoverflow.com/">stackoverflow</a></li>
-    <li><a href="http://crop-circle.imageonline.co/">Image</a></li>
-    <li><a href="https://colorhunt.co/">Colorhaunt</a></li>
-    <li><a href="https://unicode-table.com/en/">Symbol</a></li>
-    <li><a href="https://hangouts.google.com/">Google Hangout</a></li>
-    <li><a href="https://github.com/">My Website</a></li>
-  </ul>
+  <div class="middle">
+    <nav class="navbar navbar-light ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <div class="row">
+          <div class="col-lg-3">
+            <h3>COURSE</h3>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="">The complete web Development Bootcamp</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Windows front end Development</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="">Windows back end development</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <h3>LEARNING TOOLS</h3>
+            <ol class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.udemy.com/home/my-courses/learning/">Udemy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://atom.io/docs">Atom</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://devdocs.io/">Devdocs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://developer.mozilla.org/en-US/docs/Web/HTML">MDN</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://www.w3schools.com/">W3School</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://stackoverflow.com/">Stackoverflow</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="http://crop-circle.imageonline.co/">Image</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://colorhunt.co/">Color Plates</a>
+                <a class="nav-link" href="https://fonts.google.com/">Google Fonts</a>
+                <a class="nav-link" href="https://www.cssfontstack.com/">CSS Fonts</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://graf1x.com/list-of-colors-with-color-names/">Color Names</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://unicode-table.com/en/">Symbol</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="https://hangouts.google.com/">Google Hangout</a>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
   <hr>
-  <h3><a href="Skills.html">
-      <p style="color:orange">My Skills</p>
-    </a></h3>
-  <h3><a href="Hobbies.html">My Hobbies</a></h3>
-  <h3><a href="Experience.html">
-      <p style=color:black>My Experience</p>
-    </a></h3>
-  <h3><a href="project.html">
-      <p style="color:Red">My Project</p>
-    </a></h3>
-  <h3><a href="Contact_me.html">
-      <p style="color:blue">My Contact</p>
-    </a></h3>
+  <div class="detail">
+    <h3><a href="Skills.html">My Skills</a></h3>
+    <h3><a href="Hobbies.html">My Hobbies</a></h3>
+    <h3><a href="Experience.html">My Experience</a></h3>
+    <h3><a href="https://hasanmdh.github.io/project/">My Project</a></h3>
+  </div>
+
+  <hr>
+  <div class="contact">
+    <h3 class="cbutton"><a href="Contact_me.html">Contact</a></h3>
+  </div>
+  <div class="footer">
+    <p>Learn more about me please get in touch & follow @</p>
+    <a class="footer-link" href="https://www.facebook.com/">facebook</a>
+    <a class="footer-link" href="https://twitter.com/">twitter</a>
+    <a class="footer-link" href="https://github.com/">github</a>
+    <a class="footer-link" href="https://github.com/hasanmdh/project">website</a>
+    <p class="copyright">© 2020 @ Md Hasan</p>
+  </div>
 </body>
 
 </html>
