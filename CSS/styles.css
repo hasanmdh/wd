@@ -1,14 +1,13 @@
 body{
-  background-color:lightgreen;
+background-color: #99b898;
 }
 hr{
 border-style:none;
 border-top-style:dotted;
-border-color:red;
+border-color:grey;
 border-width:5px;
 width:40px;
-margin-top:50px;
-margin-bottom: 50px;
+
 }
 h1{
   color:forestgreen;
@@ -16,6 +15,11 @@ h1{
 }
 h3{
   color:Red;
+  font-size: 2rem;
+}
+.profile-image{
+  height:300px;
+  width: 300px;
 }
 a{
   text-decoration: none;
@@ -24,21 +28,39 @@ a{
 a:hover{
 color:gray;
 }
-.top{
-  padding:2% 3%;
+@media(max-width:1078px){
+  #head{
+      text-align:center;
+  }
+  }
 
+.top{
+  background-color:lightgreen;
 }
-.middle{
+.container-fluid{
   padding: 2% 3%;
 }
-.detail{
+.details{
+  font-family:"Montserrat";
+  padding: 5% 5%;
+  background-color:#7fdbda;
+  position: relative;
+}
+
+.detail-box{
   text-align: center;
 }
+.icon{
+  color:olive;
+  margin-bottom: 10px;
+}
+.icon:hover{
+  color: blue;
+}
 .contact{
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom:50px;
-
+    text-align: center;
+    padding: 5% 5%;
+    background-color: #87d4c5;
 }
 .footer{
   text-align: center;
@@ -51,7 +73,18 @@ color:gray;
   font-size:.75rem;
   padding-top:10px;
 }
-
+.personal-image{
+  height: 500px;
+  width: 400px;
+}
+.carousel-item{
+    padding:5% 10%;
+}
+.carousel-inner{
+  text-align: center;
+  padding:7% 15%;
+  background-color:#ade498;
+}
 .cbutton {
 	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #77b55a), color-stop(1, #72b352) );
 	background:-moz-linear-gradient( center top, #77b55a 5%, #72b352 100% );
@@ -74,12 +107,12 @@ text-indent:0;
 	display:inline-block;
 	color:#ffffff;
 	font-family:arial;
-	font-size:15px;
+	font-size:2rem;
 	font-weight:bold;
 	font-style:normal;
-height:30px;
+height:40px;
 	line-height:30px;
-width:90px;
+width:150px;
 	text-decoration:none;
 	text-align:center;
 	text-shadow:0px 1px 0px #5b8a3c;
